@@ -60,7 +60,7 @@ function App() {
         </div>
         <div className="result">
           {hasResult &&
-            <p><span>{lastText}</span> is {result == false ? 'not' : ''} a palindrome.</p>
+            <p><span>{lastText}</span> is {result === false ? 'not' : ''} a palindrome.</p>
           }
         </div>
 
