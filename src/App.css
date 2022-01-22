@@ -1,0 +1,104 @@
+.App {
+  background-color: #e3eafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  flex-direction: column;
+  align-content: center;
+}
+
+header h1 {
+  color: #7317C3;
+}
+
+header span::before {
+  content: "checker";
+  animation: animate infinite 10s;
+}
+
+@keyframes animate {
+  15% {
+    content: "checker";
+  }
+  20% {
+    content: "rekcehc";
+    color: #ce0279;
+  }
+  25% {
+    content: "rekcehr";
+  }
+  30% {
+    content: "rekceer";
+  }
+  35% {
+    content: "rekcker";
+  }
+  40% {
+    content: "reecker";
+  }
+  45% {
+    content: "rhecker";
+  }
+  50% {
+    content: "checker";
+    color: #7317C3;
+  }
+}
+
+.wrapper {
+  height: 200px;
+  max-width: 300px;
+}
+
+.checker input {
+  height: 30px;
+  border-radius: 10px;
+  display: block;
+  width: 300px;
+  text-align: center;
+  outline-color: #873FC6;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.checker input:focus::placeholder {
+  color: transparent;
+}
+
+.checker button {
+  font-size: 16px;
+  box-shadow: 2px 2px #ffffff;
+  margin-top: 10px;
+  color: #fff;
+  background: #7317C3;
+  padding: 5px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  font-weight: 600;
+}
+
+.checker button:hover {
+  background-color: #873FC6;
+}
+
+.checker span {
+  font-size: 14px;
+  color: #5c5c5c;
+  font-weight: 600;
+}
+
+.result {
+  margin-top: 30px;
+
+  font-size: 18px;
+}
+
+.result span {
+  margin-top: 30px;
+  font-weight: 600;
+}
