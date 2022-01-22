@@ -1,2 +1,6 @@
 # palindrome-checker
-checks if a word or sentence is a palindrome
+
+Checks if a word or sentence is a palindrome.
+
+## preview on Vercel
+https://palindrome-checker-nu.vercel.app/
